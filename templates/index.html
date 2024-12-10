@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка погодных условий</title>
+</head>
+<body>
+    <h1>Введите начальную и конечную точку</h1>
+
+    <form action="/" method="POST">
+        <label for="start_point">Начальный город:</label>
+        <input type="text" id="start_point" name="start_point" required><br><br>
+
+        <label for="end_point">Конечный город:</label>
+        <input type="text" id="end_point" name="end_point" required><br><br>
+
+        <button type="submit">Проверить погоду</button>
+    </form>
+</body>
+</html>
