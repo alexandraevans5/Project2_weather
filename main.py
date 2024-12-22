@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = 'LpGa4UbGROT67xeSk8BbnwGtOxhOsxJ2'
+API_KEY = 'KlrnNrBdipA7L9DwvbwLgPYvrziVBHA1'
 BASE_URL = 'http://dataservice.accuweather.com/'
 
 
